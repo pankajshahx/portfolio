@@ -9,6 +9,7 @@ Tech Stack -> HTML and CSS
 
 Hosted Link ->
 i. On GitHub : 
+
 ii. On Netlify : https://suspicious-jones-c860b2.netlify.app
 
 
