@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+        
+        body{
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+
+        .endchild{
+            height: 5px;
+            text-align: center;
+              
+        }
+        .last_child:hover{
+            background: red;
+        
+        }
+        .last_child{
+            border: 2px solid black;
+            background-color: blue;
+            border-radius: 5px;
+            height: 55px; 
+            margin-top: 7px; 
+            margin-right: 12px;
+            text-align: center; 
+            padding: 20px;
+        }
+        .row{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .column{
+            float: left;
+            display: block;
+            color: wheat;
+            text-align: center;
+            padding: 25px;
+            text-decoration: none;
+        }
+        
+        .column:hover{
+            background: red;
+        }
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            color: wheat;
+            font-family: 'Roboto', sans-serif;
+        }
+        .hackerrank{
+            color:blue;
+        }
+        .hackerrank:hover{
+            color: red;
+        }
+        .photo{
+            height: 330px;
+            width: 70%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .mynamerow{
+            display: flex;
+            flex-wrap: wrap;
+            background-color:aliceblue;
+            font-family: 'Roboto', sans-serif;
+        }
+        .mynamecolumn{
+            flex: 25%;
+            padding: 150px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .hirebtn{
+            font-size: 15px;
+            border: 2px solid black;
+            background-color: blue;
+            border-radius: 3px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .myAcadesrow{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: aliceblue;
+            font-family: 'Roboto', sans-serif;
+        }
+        .myAcadescolumn{
+            flex: 15%;
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .about{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            background-color:aliceblue;
+            padding: 20px;
+        }
+
+
+
+
+
+
+        .social{
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .socialrow{
+            display: block;
+            background-color: black;
+            list-style: none;
+            
+        }
+        .socialmedia{
+            color: wheat;
+        }
+
+
+
+
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        .fa:hover {
+            opacity: 0.7;
+            background: red;
+        }
+
+
+
+
+        
+        .educ{
+            
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+        .edudiv{
+            background-color: aliceblue;
+            padding: 3px;
+        }
+        .nextline{
+            width: 16%;
+            border: 2px solid black;
+            background-color: black;
+        }
+
+        .ptag{
+            font-size: 20px;
+        }
+        .container {
+            background-color:aliceblue;
+            width: 80%;
+            border-radius: 30px;
+            border: 1px solid black;
+        }
+        .skill {
+            background-color: red;
+            color: white;
+            padding: 1%;
+            text-align: right;
+            font-size: 15px;
+            border-radius: 30px;
+            height: 10px;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        .skil{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .html {
+            width: 80%;
+        }
+      
+        .cpp {
+            width: 80%;
+        }
+        .java{
+            width: 65%;
+        }
+        .DSA{
+            width: 70%;
+        }
+        .python{
+            width: 75%;
+        }
+        .skillrow{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 30px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .skillcolumn{
+            flex: 33%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .skilldiv{
+            background-color: aliceblue;
+            padding: 5px;
+        }
+        #nline{
+            padding: 0;
+            margin: 0;
+        }
+        .certificate{
+            height: auto;
+            width: 70%;
+            
+            box-shadow: 8px 4px 8px 4px ;
+            font-family: 'Roboto', sans-serif;
+        }
+        .Achievementrow{
+            display: flex;
+            flex-wrap: wrap;
+            font-family: 'Roboto', sans-serif;
+        }
+        .Achievementcolumn{
+            flex:10%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .hackerrank{
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .Achievement{
+            background-color: aliceblue;
+            padding: 5px;
+        }
+        .profile{
+            color: blue;
+            font-size: 20px;
+        }
+        .profile:hover{
+            color: red;
+        }
+        .portfolio{
+            width: 100%;
+            height: 700px;
+        }
+        .hey{
+            font-size: 50px;
+        }
+
