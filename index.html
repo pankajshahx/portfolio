@@ -3,270 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-        
-        body{
-            margin: 0;
-            padding: 0;
-        }
 
-        .last_child{
-            border: 2px solid black;
-            background-color: blue;
-            height: 50px;
-            margin-top: 10px;
-            border-radius: 5px;
-            padding: 5px;
-            margin-left: 650px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        button:hover{
-            background: red;
-        
-        }
-        .row{
-            display: flex;
-            flex-wrap: wrap;
-            background-color: black;
-            position: fixed;
-            width: 100%;
-        }
-        .column{
-            padding: 25px;
-            top: 0;
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        .column:hover{
-            background: red;
-        }
-        a{
-            text-decoration: none;
-            font-size: 16px;
-            color: wheat;
-            font-family: 'Roboto', sans-serif;
-        }
-        .hackerrank{
-            color:blue;
-        }
-        .hackerrank:hover{
-            color: red;
-        }
-        .photo{
-            height: 330px;
-            width: 70%;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .mynamerow{
-            display: flex;
-            flex-wrap: wrap;
-            background-color:aliceblue;
-            font-family: 'Roboto', sans-serif;
-        }
-        .mynamecolumn{
-            flex: 25%;
-            padding: 150px;
-            font-family: 'Roboto', sans-serif;
-        }
-        .hirebtn{
-            font-size: 15px;
-            border: 2px solid black;
-            background-color: blue;
-            border-radius: 3px;
-            padding: 10px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        .myAcadesrow{
-            display: flex;
-            flex-wrap: wrap;
-            background-color: aliceblue;
-            font-family: 'Roboto', sans-serif;
-        }
-        .myAcadescolumn{
-            flex: 15%;
-            padding-left: 40px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        .about{
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            background-color:aliceblue;
-            padding: 20px;
-        }
-
-        .social{
-            background-color: black;
-            padding: 10px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-        }
-        .socialrow{
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 480px;
-        }
-        .socialcolumn{
-            padding: 20px;
-            
-        }
-        .socialmedia{
-            color: wheat;
-        }
-
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 30px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 50%;
-        }
-        .fa:hover {
-            opacity: 0.7;
-            background: red;
-        }
-        .educ{
-            
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-        }
-        .edudiv{
-            background-color: aliceblue;
-            padding: 3px;
-        }
-        .nextline{
-            width: 16%;
-            border: 2px solid black;
-            background-color: black;
-        }
-
-        .ptag{
-            font-size: 20px;
-        }
-        .container {
-            background-color:aliceblue;
-            width: 80%;
-            border-radius: 30px;
-            border: 1px solid black;
-        }
-        .skill {
-            background-color: red;
-            color: white;
-            padding: 1%;
-            text-align: right;
-            font-size: 15px;
-            border-radius: 30px;
-            height: 10px;
-            font-family: 'Roboto', sans-serif;
-            
-        }
-        .skil{
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-        }
-        .html {
-            width: 80%;
-        }
-      
-        .cpp {
-            width: 80%;
-        }
-        .java{
-            width: 65%;
-        }
-        .DSA{
-            width: 70%;
-        }
-        .python{
-            width: 75%;
-        }
-        .skillrow{
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 30px;
-            font-family: 'Roboto', sans-serif;
-        }
-        .skillcolumn{
-            flex: 33%;
-            font-family: 'Roboto', sans-serif;
-        }
-        .skilldiv{
-            background-color: aliceblue;
-            padding: 5px;
-        }
-        #nline{
-            padding: 0;
-            margin: 0;
-        }
-        .certificate{
-            height: auto;
-            width: 70%;
-            
-            box-shadow: 8px 4px 8px 4px ;
-            font-family: 'Roboto', sans-serif;
-        }
-        .Achievementrow{
-            display: flex;
-            flex-wrap: wrap;
-            font-family: 'Roboto', sans-serif;
-        }
-        .Achievementcolumn{
-            flex:10%;
-            font-family: 'Roboto', sans-serif;
-        }
-        .hackerrank{
-            font-size: 30px;
-            font-family: 'Roboto', sans-serif;
-        }
-        .Achievement{
-            background-color: aliceblue;
-            padding: 5px;
-        }
-        .profile{
-            color: blue;
-            font-size: 20px;
-        }
-        .profile:hover{
-            color: red;
-        }
-        .portfolio{
-            width: 100%;
-            height: 700px;
-        }
-        .hey{
-            font-size: 50px;
-        }
-
-
-    </style>
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Pankaj Kumar</title>
 </head>
 <body>
     <header>
-        <nav class="row">
-            <a class="column" href="#home">Home</a>
-            <a class="column" href="#skillss">Skills</a>
-            <a class="column" href="#Academics">Academics</a>
-            <a class="column" href="#AboutMe">About Me</a>
-            <a class="column" href="#Achievement">Achievement</a>
-            <a class="column" href="#contact">Contact</a>
+        <ul class="row">
+            <li ><a class="column"  href="#home">Home</a></li>
+            <li ><a class="column"  href="#skillss">Skills</a></li>
+            <li ><a class="column"  href="#Academics">Academics</a></li>
+            <li ><a class="column"  href="#AboutMe">About Me</a></li>
+            <li ><a class="column"  href="#Achievement">Achievement</a></li>
+            <li ><a class="column"  href="#contact">Contact</a></li>
             
-            <button class="last_child"><a href="https://drive.google.com/file/d/1SIpq5nKE9J7jJ1wAlI4kYPPtsrsFuTRA/view?usp=sharing">Download CV</a></button>
-        </nav>
+  
+            <li style="float:right" id="endchild" ><button class="last_child"><a href="https://drive.google.com/file/d/1SIpq5nKE9J7jJ1wAlI4kYPPtsrsFuTRA/view?usp=sharing">Download CV</a></button></li>
+        </ul>
     </header>
 
     <div>
-        <img src="maxresdefault.jpg" class="portfolio" alt="portfolio">
+        <img src="Assets\index.jpg" class="portfolio" alt="portfolio">
     </div>
 
 
@@ -277,19 +39,19 @@
 		<div class="mynamecolumn">
             <p><span class="hey">H</span>ey There !</p>
             <p class="ptag">I'm Pankaj Kumar
-                Currently, I'm Pursuing Master Of Computer Applications (MCA) From BANARAS HINDU UNIVERSITY, Varanasi.
-                I'm Very Dedicated And Possessive To My Work.
-                Ability To Work Effectively And Efficiently In Team As Well As Individual.
-                I Have Made More Than 5+ Web & Mobile Application Projects.
-                Actively Looking For Good Opportunity As Full Stack Developer And Mobile Application Developer.
-                Check Out My Complete Portfolio To Know More About Me.</p>
+                currently, I'm pursuing Master Of Computer Applications (MCA) From BANARAS HINDU UNIVERSITY, Varanasi.<br>
+                I'm very dedicated and possessive to my work.
+                Ability to work effectively and efficiently in team as well as individual.<br>
+                I have made more than 3+ web & mobile application projects.<br>
+                Actively looking for good opportunity as full stack developer and mobile application developer.<br>
+                Check out my complete portfolio to know more about me.</p>
             <p> a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
 		    <button class="hirebtn"><a href="mailto:pankajshah.x@gmail.com"> Hire Me </a></button>
 		</div>
 		<div class="mynamecolumn">
             <div class="photorow">
                 <div class="photocolumn">
-			        <img class="photo" src="WhatsApp Image 2021-09-09 at 10.46.54.jpeg" alt="profilepic">
+			        <img class="photo" src="Assets\Profile_pic.jpeg" alt="profilepic">
                 </div>
             </div>
 		</div>
@@ -303,11 +65,6 @@
         <h1 class="skil">SKILLS</h1><hr class="nextline">
         <div class="skillrow">
             <div class="skillcolumn">
-                <h2>My Skills</h2>
-                <p class="ptag"> I have basic ans medium level knowledge</p>
-                <p class="ptag"> in data structure and algorith,I also work</p>
-                <p class="ptag"> in development field and i know HTML/CSS,
-                <p class="ptag">,Java,Cpp,MySql,Python</p>
                 <h2>Problem Solving Skill</h2>
                 <h3>Hackerrank's Profile</h3>
                 <a href="https://www.hackerrank.com/pankajshah_x" class="profile" >Click Here To See My Hackerrank Profile</a>
@@ -358,26 +115,28 @@
         <hr class="nextline">
         <div class="myAcadesrow">
             <div class="myAcadescolumn">
-                <h1>2012</h1>
+                <h1>2011 - 2012</h1>
                 <h2>High School</h2>
                 <p class="Acades">Board : Uttar Pradesh Board</p>
+                <p class="Acades">School : B V BHAWAN I C RATSAR , BALLIA</p>
                 <p class="Acades">Marks : 73.6%</p>
             </div>
             <div class="myAcadescolumn">
-                <h1>2014</h1>
+                <h1>2012 - 2014</h1>
                 <h2>Intermediate</h2>
                 <p class="Acades">Board : Uttar Pradesh Board</p>
+                <p class="Acades">School : B V BHAWAN I C RATSAR , BALLIA</p>
                 <p class="Acades">Marks : 73.6%</p>
             </div>
             <div class="myAcadescolumn">
-                <h1>2018</h1>
+                <h1>2015 - 2018</h1>
                 <h2>Graduation</h2>
                 <p class="Acades">Stream : Bachelor of Science</p>
                 <p class="Acades">University : MGKVP Varanasi(U.P.)</p>
                 <p class="Acades">Marks : 59.5%</p>
             </div>
             <div class="myAcadescolumn">
-                <h1>2021</h1>
+                <h1>2018 - 2021</h1>
                 <h2>Post Graduation</h2>
                 <p class="Acades">Stream : Master of Computer Application</p>
                 <p class="Acades">University : Banaras Hindu University (B.H.U)</p>
@@ -397,12 +156,13 @@
             <h1>HI ! I AM PANKAJ KUMAR</h1>
             <div class="aboutcolumn">
                 <h2>Introduction</h2>
-                <p>I am a student , looking for my dream job ,I wanted to become full stack developer</p>
-                <p>I love the internet, technology, and building beautiful things.</p>
+                <p>Pursuing MCA from Banaras Hindu University.<br>
+                 I have an interest in Problem Solving and Data Structure, apart from this, I love coding, especially in C++ and Python.<br>
+                  My aim is to develop my skills and expertise so that I can use my skills for the betterment of society.</p>
             </div>
             <div class="aboutcolumn">
                 <h2>Where I am from</h2>
-                <p>I am originally belongs from Ballia Uttar Pradesh , Ballia is my hometown </p>
+                <p>I am originally belongs to Ballia Uttar Pradesh , Ballia is my hometown </p>
             </div>
             <div class="aboutcolumn">
                 <h2>More About Me</h2>
@@ -426,24 +186,25 @@
         <div class="Achievementrow">
             <div class="Achievementcolumn" >
                 <h2>Problem Solving (Intermediate) Certificate</h2>
-                <img class="certificate" src="download.png" alt="certific">
+                <img class="certificate" src="Assets/Hackerrank.png" alt="certific">
                 <p class="ptag">6 Star- Gold Level, On Hackerrank (2676.63 Points) In Problem Solving.</p>
                 <h2>Certificate Link : <a class="hackerrank" href="https://www.hackerrank.com/certificates/d0cc2063d651">Hackerrank</a></h2>
             </div>
             <div class="Achievementcolumn" >
                 <h2>COYO conducted by IITBHU</h2>
-                <img class="certificate" src="COYO BHU (28).JPG" alt="certific">
+                <img class="certificate" src="Assets/COYO IITBHU.JPG" alt="certific">
                 <h2>Certificate Link : <a class="hackerrank" href="https://drive.google.com/file/d/1dSrhjl4S4wb_Hgk248BF16dllgr0UkdM/view?usp=sharing">COYO</a></h2>
             </div>
             <div class="Achievementcolumn" >
                 <h2>The joy of computing using Python</h2>
-                <img class="certificate" src="The Joy of Computing using Python.jpg" alt="certific">
+                <img class="certificate" src="Assets/The Joy of Computing using Python.jpg" alt="certific">
                 <h2>Certificate Link : <a class="hackerrank" href="https://drive.google.com/file/d/13eplYCA8avdjYoD5o1dRjhK_gigTlF9m/view?usp=sharing">NPTEL</a></h2>
             </div>
         </div>
     </div>
 
 
+    
 
 
 
@@ -455,27 +216,22 @@
 
 
 
+
+
+    
+
+<footer >
     <div class="social" id="contact">
         <h1 class="socialmedia">Say hi to me on these social networks </h1>
-            <div class="socialrow">
-                <div class="socialcolumn">
-                    <a href="https://www.facebook.com/pankajshah.x/" class="fa fa-facebook"></a>
-                </div>
-                <div class="socialcolumn">
-                    <a href="mailto : pankajshah.x@gmail.com" class="fa fa-google"></a>
-                </div>
-                <div class="socialcolumn">
-                    <a href="https://www.linkedin.com/in/pankaj-kumar-79663a190/" class="fa fa-linkedin"></a>
-                </div>
-                <div class="socialcolumn">
-                    <a href="https://www.instagram.com/pankajshah.x/" class="fa fa-instagram"></a>
-                </div>
-                <div class="socialcolumn">
-                    <a href="https://github.com/pankajshahx" class="fa fa-github"></a>
-                </div>
-            </div>
+        <nav class="socialrow" >
+            <a  href="https://www.facebook.com/pankajshah.x/" class="fa fa-facebook"></a>
+            <a href="mailto : pankajshah.x@gmail.com" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/in/pankaj-kumar-79663a190/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/pankajshah.x/" class="fa fa-instagram"></a>
+            <a href="https://github.com/pankajshahx" class="fa fa-github"></a>
+        </nav>
     </div>
-
+</footer>
 
 
 
