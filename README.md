@@ -9,7 +9,7 @@ Tech Stack -> HTML and CSS
 
 Hosted Link ->
 
-i. On GitHub : 
+i. On GitHub : https://github.com/pankajshahx/portfolio
 
 ii. On Netlify : https://suspicious-jones-c860b2.netlify.app
 
