@@ -20,9 +20,10 @@ Some Screenshot of project :
 ![Screenshot (190)](https://user-images.githubusercontent.com/55644809/132826418-1bf40a48-e9ea-4ffc-b1f0-913488ba0a01.png)
 
 
-![Screenshot (195)](https://user-images.githubusercontent.com/55644809/133205209-b6592395-6035-45ab-8bb0-bb75ab4cd0e4.png)
+![Screenshot (195)](https://user-images.githubusercontent.com/55644809/133205685-3e8f9410-4049-40b2-99f3-e73c9142e824.png)
 
-![Screenshot (196)](https://user-images.githubusercontent.com/55644809/133205257-3a4704ed-8ffd-45d7-b59c-a427354684f5.png)
+![Screenshot (196)](https://user-images.githubusercontent.com/55644809/133205720-862989cc-ec48-4403-9068-b4c5bca75513.png)
+
 
 
 
